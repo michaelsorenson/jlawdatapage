@@ -32,7 +32,7 @@ function renderBubble() {
             '<br><b>Size</b> = popularity of movie in terms of number of reviews' + 
             '<br><b>Hover</b> over movies to see average rating' +
             '<br><b>Note:</b> Movies can be part of multiple categories (click a ' +
-            '<br>category on the bottom to remove/add that category'
+            '<br>category on the bottom to remove/add that category)'
         },
         tooltip: {
             useHTML: true,
@@ -92,7 +92,7 @@ function renderFunnel() {
         },
         title: {
             useHTML: true,
-            text: '<b>Total Earnings and Breakdown of "The Hunger Games"<b>' +
+            text: '<b>Total Earnings and Breakdown of "The Hunger Games"</b>' +
             '<br>Starting with total revenue, then international, then breaking ' +
             '<br>domestic revenue down by week'
         },
@@ -124,8 +124,8 @@ function renderDep() {
             useHTML: true,
             text: '<b>Connection of Actors through Jennifer Lawrence</b>' +
             '<br><b>Connections:</b> Actors are connected if they were in a movie' +
-            '<br>together that Jennifer Lawrence was also in, with their connection value' +
-            '<br>being the number of movies in common between them'
+            '<br>together that Jennifer Lawrence was also in, with their connection' +
+            '<br>value being the number of movies in common between them'
         },
         plotOptions: {
             series: {
