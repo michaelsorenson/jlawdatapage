@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Internal stylesheet import -->
+    <link rel="stylesheet" href="main.css">
+    <!-- External Script -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="https://code.highcharts.com/modules/cylinder.js"></script>
+<script src="https://code.highcharts.com/modules/funnel3d.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/sankey.js"></script>
+<script src="https://code.highcharts.com/modules/dependency-wheel.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./data/category_data.js"></script>
+<script src="./data/budget_data.js"></script>
+<script src="./data/dependency_data.js"></script>
+<!--  <script src="./data/geo_data.js"></script>   -->
+  </head>
+  <body>
+    <!-- Container -->
+    <table class="simpleTable">
+      <tr>
+        <td id="bubbleGraph"></td>
+      </tr>
+      <tr>
+        <td id="funnelGraph"></td>
+      </tr>
+      <tr>
+        <td id="depGraph"></td>
+      </tr>
+      <tr>
+        <td>Note: I worked a while on this last graph but the dependency wheel is somewhat new to Highcharts so changing size, making the labels appear without getting cut off by the other labels, and making the colors representing connections into gradients is very difficult. <a href="https://github.com/highcharts/highcharts/issues/11115">See here for issue on labels</a></td>
+      </tr>
+    </table>
+    <!-- Internal JS Import -->
+    <script src="main.js"></script>
+  </body>
+</html>
