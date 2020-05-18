@@ -27,12 +27,7 @@ function renderBubble() {
             height: '100%'
         },
         title: {
-            useHTML: true,
-            text: '<b>Jennifer Lawrence TV/Movie Categories and Rating</b>' +
-            '<br><b>Size</b> = popularity of movie in terms of number of reviews' + 
-            '<br><b>Hover</b> over movies to see average rating' +
-            '<br><b>Note:</b> Movies can be part of multiple categories (click a ' +
-            '<br>category on the bottom to remove/add that category)'
+            text: 'TV/Movie Categories and Ratings'
         },
         tooltip: {
             useHTML: true,
@@ -91,10 +86,7 @@ function renderFunnel() {
             }
         },
         title: {
-            useHTML: true,
-            text: '<b>Total Earnings and Breakdown of "The Hunger Games"</b>' +
-            '<br>Starting with total revenue, then international, then breaking ' +
-            '<br>domestic revenue down by week'
+            text: 'Hunger Games Earnings'
         },
         plotOptions: {
             series: {
@@ -121,11 +113,7 @@ function renderDep() {
     Highcharts.chart('depGraph', {
 
         title: {
-            useHTML: true,
-            text: '<b>Connection of Actors through Jennifer Lawrence</b>' +
-            '<br><b>Connections:</b> Actors are connected if they were in a movie' +
-            '<br>together that Jennifer Lawrence was also in, with their connection' +
-            '<br>value being the number of movies in common between them'
+            text: 'Connections'
         },
         plotOptions: {
             series: {

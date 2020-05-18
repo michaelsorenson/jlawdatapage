@@ -22,16 +22,39 @@
     <!-- Container -->
     <table class="simpleTable">
       <tr>
+        <td>
+          <b>Jennifer Lawrence TV/Movie Categories and Rating</b>
+          <br><b>Size</b> = popularity of movie/tv episode in terms of number of reviews
+          <br><b>Hover</b> over movie/tv episode to see average rating
+          <br><b>Note:</b> Movie/tv episode can be part of multiple categories (click a
+          <br>category on the bottom to remove/add that category
+        </td>
+      </tr>
+      <tr>
         <td id="bubbleGraph"></td>
+      </tr>
+      <tr>
+        <td>
+          <b>Total Earnings and Breakdown of "The Hunger Games"</b>
+          <br><p>Starting with total revenue, then international, then breaking
+          <br>domestic revenue down by week</p>
+        </td>
       </tr>
       <tr>
         <td id="funnelGraph"></td>
       </tr>
       <tr>
-        <td id="depGraph"></td>
-      </tr>
+        <td>
+          <b>Connection of Actors through Jennifer Lawrence</b>
+          <br><p>Actors are connected if they were in a movie/tv episode
+          <br>together that Jennifer Lawrence was also in, with their connection
+          <br>value being the number of movies in common between them. Notice that
+          <br>many of the actors/actresses are the Hunger Games cast, and the number
+          <br>is much higher than 4 (the number of Hunger Games movies) due to interviews
+          <br>and publicity TV episodes</p>
+        </td>
       <tr>
-        <td>Note: I worked a while on this last graph but the dependency wheel is somewhat new to Highcharts so changing size, making the labels appear without getting cut off by the other labels, and making the colors representing connections into gradients is very difficult. <a href="https://github.com/highcharts/highcharts/issues/11115">See here for issue on labels</a></td>
+        <td id="depGraph" class="highcharts-figure"></td>
       </tr>
     </table>
     <!-- Internal JS Import -->
